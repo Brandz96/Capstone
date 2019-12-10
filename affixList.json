@@ -1,0 +1,977 @@
+[
+  {
+    "nicodemus": "tsi-",
+    "english": "\u0027first, before\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "chits-",
+    "english": "\u0027hither (toward speaker)\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "te-",
+    "english": "\u0027thither\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "tkweɫ-",
+    "english": "\u0027go about to definite place\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "tep-",
+    "english": "\u0027on the way\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "tus-",
+    "english": "\u0027as far as\u0027",
+    "affix": "Directional Prefixes"
+  },
+  {
+    "nicodemus": "tsen-",
+    "english": "\u0027under, off of\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "ch-",
+    "english": "\u0027on, attached to but not a part of, at a point\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "cht-",
+    "english": "R notes the meaning of this morpheme is not clear",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "chet-",
+    "english": "\u0027on a surface or object broader the subject, above, over\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "chs-",
+    "english": "\u0027after, behind, for a purpose, in pursuit of\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "hn-",
+    "english": "\u0027in, onto, into, on\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "gu\u0027l-",
+    "english": "\u0027under ledge or inclined plane, almost touching\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "mel-",
+    "english": "\u0027onto, besides, close by\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "ni\u0027-",
+    "english": "see",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "t-",
+    "english": "\u0027on and a part of\u0027",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "tch-",
+    "english": "\u0027astraddle, straddling an object\u0027 also used when counting people",
+    "affix": "Locative Prefixes"
+  },
+  {
+    "nicodemus": "chit\u003d",
+    "english": "\u0027offspring, child of\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "hii\u003d",
+    "english": "\u0027that which, the one who\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "nukw\u003d",
+    "english": "\u0027companion, fellow, one of the same kind\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "pe\u0027n\u003d",
+    "english": "\u0027spouse\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "sye\u003d",
+    "english": "\u0027the one whose business is...\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "\u0027ye\u003d",
+    "english": "\u0027horse, colt\u0027",
+    "affix": "Lexical Prefixes"
+  },
+  {
+    "nicodemus": "\u003dalp",
+    "english": "\u0027feeling\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalpqw",
+    "english": "\u0027mouth inside, oral cavity\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalqw",
+    "english": "\u0027log, stick like object, tree\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalq",
+    "english": "variant of \u003dalqʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003da\u0027lqs",
+    "english": "\u0027clothes\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalqs",
+    "english": "\u0027end\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalqs",
+    "english": "\u0027road\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalq-shn",
+    "english": "\u0027used for long bones of the leg\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daɫ-g\u0027i\u0027wt",
+    "english": "\u0027shoulder, part from neck to edge of shoulder\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daɫqikhw",
+    "english": "\u0027breath\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dɫqikhw",
+    "english": "variant of \u003daɫqixʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dap-a\u0027lqs",
+    "english": "\u0027bottom clothes\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daqs",
+    "english": "\u0027breast\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dasq\u0027it",
+    "english": "\u0027day, sky, atmosphere\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dsq\u0027it",
+    "english": "variant of \u003dasq\u0027it",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dastq",
+    "english": "\u0027in opposition to\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dstq",
+    "english": "variant of \u003dastq",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003da\u0027was-qn",
+    "english": "\u0027corner, angle, in hair, on top of head\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daqhn",
+    "english": "\u0027arm, wing\u0027 (Doak 1997 p 40)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtsin-cht",
+    "english": "\u0027wrist, edge of hand\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtsin-kwe\u0027",
+    "english": "\u0027shore (edge of water)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dcha\u0027",
+    "english": "No gloss",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtsin",
+    "english": "\u0027edge, mouth, shore\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtsen",
+    "english": "variant of \u003dcin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtsn",
+    "english": "variant of \u003dcin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003del",
+    "english": "\u0027planes meet\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dels",
+    "english": "\u0027round object\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delwis",
+    "english": "\u0027about, go about to indefinite places\u0027 locative suffix",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027l\u0027ws",
+    "english": "variant of \u003dɛlwis",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delws",
+    "english": "variant of \u003dɛlwis",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deɫni\u0027w",
+    "english": "\u0027alongside at rest, or in position alongside\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dɫni\u0027w",
+    "english": "variant of \u003dɛɫniw\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deɫne\u0027w",
+    "english": "variant of \u003dɛɫniw\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deɫp",
+    "english": "\u0027part of a bush, plant, root, tree\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daɫp",
+    "english": "variant of \u003dɛɫp",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dɫp",
+    "english": "variant of \u003dɛɫp",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003demsh",
+    "english": "\u0027born\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dmsh",
+    "english": "variant of \u003dɛməš",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dmsh",
+    "english": "variant of \u003dɛməš",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deschiche\u0027",
+    "english": "\u0027horse, stock\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003det",
+    "english": "\u0027open to question, doubtful\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dgwil",
+    "english": "\u0027hollow object, wagon, canoe, abdomen\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dgwl",
+    "english": "variant of \u003dgwil",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dits\u0027e\u0027",
+    "english": "\u0027all around, all over, used especially for wrapping or covering\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dts\u0027e\u0027",
+    "english": "variant of \u003dic\u0027ɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dich\u0027n-cht",
+    "english": "\u0027back of hand\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dich\u0027n",
+    "english": "\u0027back, ridge\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dech\u0027n",
+    "english": "variant of \u003dičn\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dch\u0027n",
+    "english": "variant of \u003dičn\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dichs",
+    "english": "\u0027hand, not including fingers\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dechs",
+    "english": "variant of \u003dičs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dchs",
+    "english": "variant of \u003dičs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dicht",
+    "english": "\u0027hand, including fingers\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003decht",
+    "english": "variant of \u003dičt",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dcht",
+    "english": "variant of \u003dičt",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diɫ-che\u0027-us",
+    "english": "\u0027inside of face (eye)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003didn",
+    "english": "\u0027effort\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027lch\u0027",
+    "english": "check (?)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027lch\u0027",
+    "english": "variant of \u003dil\u0027č\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilgwes",
+    "english": "\u0027property\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delgwes",
+    "english": "variant of \u003dilgwɛs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027lkwe\u0027",
+    "english": "\u0027forehead, brow\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dil",
+    "english": "\u0027angle where two planes meet\u0027 or \u0027place where two elements meet",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003del",
+    "english": "variant of \u003dil",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dl",
+    "english": "variant of\u003dil",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diln",
+    "english": "\u0027food, pertaining to food\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diln",
+    "english": "variant of \u003diln",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diɫ",
+    "english": "\u0027direction, -ward\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilps",
+    "english": "\u0027throat of person, back of animal\u0027s neck\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delps",
+    "english": "variant of \u003dilps",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilqwes",
+    "english": "\u0027heart, stomach\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delqwes",
+    "english": "variant of \u003dilqwɛs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilt",
+    "english": "\u0027offspring, child\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delt",
+    "english": "variant of \u003dilt",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027lt",
+    "english": "variant of \u003dilt",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilmkhw",
+    "english": "\u0027person, man\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dalmkhw",
+    "english": "variant of \u003diləmxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delmkhw",
+    "english": "variant of \u003diləmxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilup",
+    "english": "\u0027foundation, something on which to rest\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delup",
+    "english": "variant of \u003dilup",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dine\u0027",
+    "english": "\u0027ear\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dene\u0027",
+    "english": "variant of \u003dinɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dene\u0027",
+    "english": "variant of \u003dinɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027",
+    "english": "\u0027someone who ... for\u0027 used with kin terms, no clear meaning",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027",
+    "english": "variant of \u003diʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dilkhw",
+    "english": "\u0027hide, skin, mat, covering\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003delkhw",
+    "english": "variant of \u003dilxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dlkhw",
+    "english": "variant of \u003dilxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dinch",
+    "english": "\u0027hollow, whence: belly\u0027 with hn- (locative \u0027in, onto, etc.\u0027) \u0027room\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dench",
+    "english": "variant of \u003dinč",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dingwiln",
+    "english": "\u0027something\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dine\u0027",
+    "english": "\u0027over, on top of but not entirely covered\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dene\u0027",
+    "english": "variant of \u003dinɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dene\u0027",
+    "english": "variant of \u003dinɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dins",
+    "english": "\u0027tooth\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dens",
+    "english": "variant of \u003dins",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dinkhw",
+    "english": "\u0027weather\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003denkhw",
+    "english": "variant of \u003dinxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diple\u0027",
+    "english": "\u0027attachment, handle. connection\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003daple\u0027",
+    "english": "variant of \u003diplɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deple\u0027",
+    "english": "variant of \u003diplɛʔ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dip-el-schn",
+    "english": "\u0027stubby horn, stump of horn\u0027 (?)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diple\u0027shn",
+    "english": "\u0027heel (handle of foot)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dip",
+    "english": "\u0027bottom, after, behind, back\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dap",
+    "english": "variant of \u003dip",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dep",
+    "english": "variant of \u003dip",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dp",
+    "english": "variant of \u003dip",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dip-ens",
+    "english": "\u0027chin, i.e. bottom of teeth\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dips",
+    "english": "\u0027neck all around\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003deps",
+    "english": "variant of \u003dips",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dipɫtikhwtsch",
+    "english": "\u0027tongue, tongue-shaped\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003depɫtikhwtsch",
+    "english": "variant of \u003dipɫtixʷcč",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dip-\u0027was-shn",
+    "english": "\u0027the generalized word for privates\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dischn",
+    "english": "\u0027horn, forehead at the edge of the hair\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dschn",
+    "english": "variant of \u003disčən",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003disch\u0027e\u0027yt",
+    "english": "\u0027pharynx\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003disgwel",
+    "english": "\u0027fish\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dsgwel",
+    "english": "variant of \u003disgwɛl",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003ditkwe\u0027",
+    "english": "\u0027water\u0027 (Doak 1997 p 31)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027utm",
+    "english": "\u0027self-doer, auto-, that which performs by itself, a neuter reflexive, not applied to persons\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027wes",
+    "english": "\u0027between, together, have contact with, be in contact\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003da\u0027wes",
+    "english": "variant of \u003diw\u0027ɛs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027wes",
+    "english": "variant of \u003diw\u0027ɛs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diɫts\u0027e\u0027",
+    "english": "\u0027body\u0027 (Doak 1997 p 96; 75a)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003diɫkhw",
+    "english": "\u0027house\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dɫkhw",
+    "english": "variant of \u003diɫxʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dikhw",
+    "english": "\u0027willingly, of own accord\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dekhw",
+    "english": "variant of \u003dixʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dkhw",
+    "english": "variant of \u003dixʷ",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027st",
+    "english": "\u0027surface of round object, rock\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003da\u0027st",
+    "english": "variant of \u003diʔst",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027st",
+    "english": "variant of \u003diʔst",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027t",
+    "english": "\u0027source (?)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003de\u0027t",
+    "english": "variant of \u003diʔt",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dkwup",
+    "english": "\u0027wood (?)\u0027 (Doak 1997 p 40)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dkwe\u0027",
+    "english": "\u0027water, liquid\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dkp",
+    "english": "\u0027fire, fuel\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dɫ-ts\u0027e\u0027-ip",
+    "english": "\u0027hip\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dme\u0027",
+    "english": "\u0027in every way\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dnu\u0027m",
+    "english": "\u0027body\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dos-aqhen",
+    "english": "\u0027top of arm, perhaps ball and socket joint\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqin",
+    "english": "\u0027head, tip, top\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqn",
+    "english": "variant of \u003dqin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqn",
+    "english": "variant of \u003dqin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqin",
+    "english": "\u0027voice, throat\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqn",
+    "english": "variant of \u003dqin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqn",
+    "english": "variant of \u003dqin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dqinps",
+    "english": "\u0027seat\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dstq",
+    "english": "\u0027seems to refer to vegetation crops\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dschint",
+    "english": "\u0027people, persons\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dschent",
+    "english": "variant of \u003dsčint",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dmsh",
+    "english": "\u0027people as a kind of group\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dshin",
+    "english": "\u0027foot, leg, the leg from hip to toe\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dshen",
+    "english": "variant of \u003dšin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dshn",
+    "english": "variant of \u003dšin",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dtqhwe",
+    "english": "\u0027camas, (?)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dt\u0027e\u0027yt",
+    "english": "No gloss",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003du\u0027lmkhw",
+    "english": "\u0027ground\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dups",
+    "english": "\u0027anus, anal region\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dus",
+    "english": "\u0027face, fire, eye\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dos",
+    "english": "variant of \u003dus",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003ds",
+    "english": "variant of \u003dus",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dut",
+    "english": "\u0027place\u0027 (Doak 1997 p 28)",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dus-shn",
+    "english": "\u0027toe (face of foot)\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dust",
+    "english": "\u0027along, meaning movement along\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003du\u0027",
+    "english": "\u0027pendent\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003du\u0027us",
+    "english": "\u0027directly, spang\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003do\u0027os",
+    "english": "variant of \u003duʔus",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003di\u0027qs",
+    "english": "\u0027nose, beak, oral and nasal cavity, seat of taste\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003d\u0027qs",
+    "english": "variant of \u003diʔqs",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dyuye\u0027",
+    "english": "\u0027back and forth\u0027",
+    "affix": "Lexical Suffixes"
+  },
+  {
+    "nicodemus": "\u003dyoye\u0027",
+    "english": "variant of \u003dyuyɛʔ",
+    "affix": "Lexical Suffixes"
+  }
+]
