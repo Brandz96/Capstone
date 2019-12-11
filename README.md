@@ -1,4 +1,4 @@
-# mainmenu
+# demo
 
 A new Flutter application.
 
