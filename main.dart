@@ -15,10 +15,12 @@ class MyApp extends StatelessWidget {
     var routes = <String, WidgetBuilder>{
 
 
-      Subpage.routeName: (BuildContext context) =>
-      new Subpage(title: 'Subpage'),
-      SubPage5.routeName: (BuildContext context) =>
-      new SubPage5(title: 'SubPage5',),
+      //Page routes for page navigation
+
+      Dictionary.routeName: (BuildContext context) =>
+      new Dictionary(title: 'Dictionary'),
+      AboutPage.routeName: (BuildContext context) =>
+      new AboutPage(title: 'AboutPage',),
       Stem.routeName: (BuildContext context) => new Stem(title: 'Stem',),
       Audio.routeName: (BuildContext context) =>
       new Audio(title: 'Audio'),
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-            unselectedWidgetColor: Colors.white70
+          unselectedWidgetColor: Colors.white70
 
 
       ),
@@ -43,6 +45,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+  //Home Page is the intro slider
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -95,9 +98,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void onDonePress(){
     Navigator.push(context,
-    MaterialPageRoute(
-      builder: (context) => Home()
-    ));
+        MaterialPageRoute(
+            builder: (context) => Home()
+        ));
   }
   void onSkipPress(){
     //go to next screen
@@ -123,15 +126,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
 }
 
+
 class Menu extends StatelessWidget {
   // This widget is the root of your application.
   var routes = <String, WidgetBuilder>{
 
 
-    Subpage.routeName: (BuildContext context) =>
-    new Subpage(title: 'Subpage'),
-    SubPage5.routeName: (BuildContext context) =>
-    new SubPage5(title: 'SubPage5',),
+    Dictionary.routeName: (BuildContext context) =>
+    new Dictionary(title: 'Dictionary'),
+    AboutPage.routeName: (BuildContext context) =>
+    new AboutPage(title: 'AboutPage',),
     Stem.routeName: (BuildContext context) => new Stem(title: 'Stem',)
   };
 
@@ -144,7 +148,7 @@ class Menu extends StatelessWidget {
 
   }
 }
-
+    //Main page is Home, displays the navigation buttons
 class Home extends StatefulWidget {
   Home({Key key, this.title}) : super(key: key);
 
@@ -155,16 +159,6 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home> {
-
-  final List<String> _data = [
-    "Root Dictionary",
-    "Stem List",
-    "Affix List",
-    "Audio Files",
-    "About",
-    "Feedback",
-
-  ];
 
 
   @override
@@ -217,35 +211,35 @@ class _Home extends State<Home> {
                       children: <Widget>[
                         new Padding(padding: EdgeInsets.only(top: 50)),
                         RaisedButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, Subpage.routeName);
-                          },
-                          textColor: Colors.white,
+                            onPressed: () {
+                              Navigator.pushNamed(context, Dictionary.routeName);
+                            },
+                            textColor: Colors.white,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-                          padding: const EdgeInsets.all(0),
-                          child: Ink(
-                            decoration: const BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: <Color>[
-                                  Color.fromRGBO(252, 11,106,1),
-                                  Color.fromRGBO(252, 11,106,.9),
-                                  Color.fromRGBO(252, 62,11,.6),
-                                ],
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(50)),
-                            ),
-                          child: Container(
-                            width: 350,
-                            height: 20,
-                            constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
-                            alignment: Alignment.center,
-                            child: const Text(
-                              "Root Dictionary",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(fontFamily: 'Open Sans'),
-                            ),
-                          )
-                          )
+                            padding: const EdgeInsets.all(0),
+                            child: Ink(
+                                decoration: const BoxDecoration(
+                                  gradient: LinearGradient(
+                                    colors: <Color>[
+                                      Color.fromRGBO(252, 11,106,1),
+                                      Color.fromRGBO(252, 11,106,.9),
+                                      Color.fromRGBO(252, 62,11,.6),
+                                    ],
+                                  ),
+                                  borderRadius: BorderRadius.all(Radius.circular(50)),
+                                ),
+                                child: Container(
+                                  width: 350,
+                                  height: 20,
+                                  constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
+                                  alignment: Alignment.center,
+                                  child: const Text(
+                                    "Root Dictionary",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(fontFamily: 'Open Sans'),
+                                  ),
+                                )
+                            )
                         ),
                         new Padding(padding: EdgeInsets.only(top: 20)),
                         RaisedButton(
@@ -275,7 +269,7 @@ class _Home extends State<Home> {
                                     "Stem List",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
-                                      fontFamily: 'Open Sans'
+                                        fontFamily: 'Open Sans'
                                     ),
                                   ),
                                 )
@@ -346,7 +340,7 @@ class _Home extends State<Home> {
                         new Padding(padding: EdgeInsets.only(top: 20)),
                         RaisedButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, SubPage5.routeName);
+                              Navigator.pushNamed(context, AboutPage.routeName);
                             },
                             textColor: Colors.white,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
@@ -377,7 +371,7 @@ class _Home extends State<Home> {
                         new Padding(padding: EdgeInsets.only(top: 20)),
                         RaisedButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, Subpage.routeName);
+                              Navigator.pushNamed(context, Dictionary.routeName);
                             },
                             textColor: Colors.white,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
@@ -417,38 +411,38 @@ class _Home extends State<Home> {
 }
 
 
+//Dictionary class is the first page, root dictionary, lists all of the words in Nicodemus with their respective English words
+class Dictionary extends StatefulWidget {
+  Dictionary({Key key, this.title}) : super(key: key);
 
-class Subpage extends StatefulWidget {
-  Subpage({Key key, this.title}) : super(key: key);
-
-  static const String routeName = "/Subpage";
+  static const String routeName = "/Dictionary";
 
   final String title;
 
   @override
-  _SubpageState createState() => new _SubpageState();
+  _DictionaryState createState() => new _DictionaryState();
 }
 
-class _SubpageState extends State<Subpage> {
+class _DictionaryState extends State<Dictionary> {
 
   int rvalue1;
   int flag1;
 
-  List<Note> _notes = List<Note>();
-  List<Note> _fnotes = List<Note>();
+  List<Tile> _tiles = List<Tile>();
+  List<Tile> _ftiles = List<Tile>();
   final _delay = tempDelay(mill: 200);
 
-  Future<List<Note>> fetchNotes() async {
+  Future<List<Tile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/Salish.json';
     var response = await http.get(url);
 
-    var notes = List<Note>();
+    var notes = List<Tile>();
 
 
     if (response.statusCode == 200) {
       var notesJson = json.decode(response.body);
       for (var noteJson in notesJson) {
-        notes.add(Note.fromJson(noteJson));
+        notes.add(Tile.fromJson(noteJson));
       }
     }
     return notes;
@@ -458,8 +452,8 @@ class _SubpageState extends State<Subpage> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
         rvalue1 = 0;
         flag1 = 0;
       });
@@ -485,7 +479,7 @@ class _SubpageState extends State<Subpage> {
       appBar: AppBar(
         centerTitle: true,
         title: new Padding (child: new Text ('Coeur D\' Alene Mobile Dictionary', textAlign: TextAlign.center,style: TextStyle(color: Colors.white, fontSize: 9,),),
-            padding: EdgeInsets.all(0),),
+          padding: EdgeInsets.all(0),),
         backgroundColor: Color.fromRGBO(252, 11,106,1),
       ),
       body: Column(
@@ -506,14 +500,14 @@ class _SubpageState extends State<Subpage> {
                 _delay.run((){
                   setState(() {
                     if(flag1 == 1){
-                      _fnotes = _notes.where((u) =>
+                      _ftiles = _tiles.where((u) =>
                       (u.title.toLowerCase().contains(string.toLowerCase()))).toList();
                     }
                     else if(flag1 == 2){
-                      _fnotes = _notes.where((u) =>
+                      _ftiles = _tiles.where((u) =>
                       (u.text.toLowerCase().contains(string.toLowerCase()))).toList();
                     } else {
-                      _fnotes = _notes.where((u) =>
+                      _ftiles = _tiles.where((u) =>
                       (u.title.toLowerCase().contains(string.toLowerCase()) ||
                           u.text.toLowerCase().contains(string.toLowerCase())))
                           .toList();
@@ -544,7 +538,7 @@ class _SubpageState extends State<Subpage> {
                 onDoubleTap: () {
                   Navigator.push(context,
                       MaterialPageRoute(
-                          builder: (context) => Screen(root: _fnotes[index].root)
+                          builder: (context) => Screen(root: _ftiles[index].root)
                       ));
                 },
                 child: new Container(
@@ -559,19 +553,19 @@ class _SubpageState extends State<Subpage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
-                      Text(_fnotes[index].title,
+                      Text(_ftiles[index].title,
                         style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600,),),
                       Padding(
-                      child: Text(_fnotes[index].text,
-                        style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1), fontStyle: FontStyle.italic, fontSize: 12),),
-                      padding: EdgeInsets.only(left: 10),),
+                        child: Text(_ftiles[index].text,
+                          style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1), fontStyle: FontStyle.italic, fontSize: 12),),
+                        padding: EdgeInsets.only(left: 10),),
                     ],
                     mainAxisAlignment: MainAxisAlignment.center,
                   ),
                 ),
               );
             },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -584,9 +578,9 @@ class _SubpageState extends State<Subpage> {
 
 
 
+//Tile class is for the list of English and Nicodemus words. Used to store JSON files (Affix, Stem, Root).
 
-
-class Note{
+class Tile{
 
   String title;
   String text;
@@ -594,10 +588,10 @@ class Note{
   String stem;
   String affix;
 
-  Note(this.title, this.text, this.root, this.stem, this.affix);
+  Tile(this.title, this.text, this.root, this.stem, this.affix);
 
 
-  Note.fromJson(Map<String, dynamic> json){
+  Tile.fromJson(Map<String, dynamic> json){
 
     title = json['nicodemus'];
     text = json['english'];
@@ -609,22 +603,25 @@ class Note{
 
 
 }
-class StemNote{
+//A tile used specifically for the stem class
+class StemTile{
   String stem;
-  StemNote.fromJson(Map<String, dynamic> json){
+  StemTile.fromJson(Map<String, dynamic> json){
     stem = json['stem'];
   }
 }
-class AffixNote{
+//A tile used specifically for the affix class
+class AffixTile{
 
   String affix;
-  AffixNote.fromJson(Map<String, dynamic> json){
+  AffixTile.fromJson(Map<String, dynamic> json){
     affix = json['affix'];
   }
 
 
 }
 
+//adds a small delay to the search
 class tempDelay{
 
   final int mill;
@@ -643,12 +640,12 @@ class tempDelay{
 
 }
 
+//Creates the about page of the application
+class AboutPage extends StatelessWidget {
 
-class SubPage5 extends StatelessWidget {
+  AboutPage({Key key, this.title}) : super(key: key);
 
-  SubPage5({Key key, this.title}) : super(key: key);
-
-  static const String routeName = "/Subpage5";
+  static const String routeName = "/AboutPage";
 
   final String title;
 
@@ -693,6 +690,7 @@ class SubPage5 extends StatelessWidget {
   }
 }
 
+//Creates the Stem page of the application
 class Stem extends StatefulWidget {
   Stem({Key key, this.title}) : super(key: key);
 
@@ -706,22 +704,22 @@ class Stem extends StatefulWidget {
 
 class _StemState extends State<Stem> {
 
-  List<StemNote> _notes = List<StemNote>();
-  List<StemNote> _fnotes = List<StemNote>();
+  List<StemTile> _tiles = List<StemTile>();
+  List<StemTile> _ftiles = List<StemTile>();
   final _delay = tempDelay(mill: 200);
 
-  Future<List<StemNote>> fetchNotes() async {
+  Future<List<StemTile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/StemList.json';
     var response = await http.get(url);
 
-    var notes = List<StemNote>();
+    var notes = List<StemTile>();
 
 
     if (response.statusCode == 200) {
       var notesJson = json.decode(response.body);
       for (var noteJson in notesJson) {
 
-        notes.add(StemNote.fromJson(noteJson));
+        notes.add(StemTile.fromJson(noteJson));
       }
     }
     return notes;
@@ -731,8 +729,8 @@ class _StemState extends State<Stem> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
       });
     });
     super.initState();
@@ -764,7 +762,7 @@ class _StemState extends State<Stem> {
               onChanged: (string) {
                 _delay.run((){
                   setState(() {
-                    _fnotes = _notes.where((u) =>
+                    _ftiles = _tiles.where((u) =>
                     (u.stem.toLowerCase().contains(string.toLowerCase())))
                         .toList();
                   });
@@ -789,7 +787,7 @@ class _StemState extends State<Stem> {
                 onDoubleTap: () {
                   Navigator.push(context,
                       MaterialPageRoute(
-                          builder: (context) => StemScreen(stem: _fnotes[index].stem)
+                          builder: (context) => StemScreen(stem: _ftiles[index].stem)
                       ));
                 },
                 child:new Container(
@@ -805,16 +803,16 @@ class _StemState extends State<Stem> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Padding(
-                      child: Text(_fnotes[index].stem,
-                        style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600,),),
-                      padding: EdgeInsets.only(left: 10),),
+                        child: Text(_ftiles[index].stem,
+                          style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600,),),
+                        padding: EdgeInsets.only(left: 10),),
                     ],
                     mainAxisAlignment: MainAxisAlignment.center,
                   ),
                 ),
               );
             },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -825,15 +823,16 @@ class _StemState extends State<Stem> {
   }
 }
 
+//Second screen of the root double tap events
 class Screen extends StatefulWidget {
 
   final String title;
   final String text;
   final String root;
-  final List<Note> fnotes;
+  final List<Tile> ftiles;
 
 
-  Screen({Key key, this.title, this.root, this.fnotes, this.text}) : super(key: key);
+  Screen({Key key, this.title, this.root, this.ftiles, this.text}) : super(key: key);
 
 
   @override
@@ -841,8 +840,8 @@ class Screen extends StatefulWidget {
 }
 class _Screen extends State<Screen> {
 
-  List<Note> _notes = List<Note>();
-  List<Note> _fnotes = List<Note>();
+  List<Tile> _tiles = List<Tile>();
+  List<Tile> _ftiles = List<Tile>();
 
   final String root;
 
@@ -850,11 +849,11 @@ class _Screen extends State<Screen> {
 
 
 
-  Future<List<Note>> fetchNotes() async {
+  Future<List<Tile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/Salish.json';
     var response = await http.get(url);
 
-    var notes = List<Note>();
+    var notes = List<Tile>();
 
 
     if (response.statusCode == 200) {
@@ -862,7 +861,7 @@ class _Screen extends State<Screen> {
       for (var noteJson in notesJson) {
 
         if(noteJson['root'] == root) {
-          notes.add(Note.fromJson(noteJson));
+          notes.add(Tile.fromJson(noteJson));
         }
       }
     }
@@ -874,8 +873,8 @@ class _Screen extends State<Screen> {
     fetchNotes().then((value) {
       setState(() {
 
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
 
       });
     });
@@ -936,11 +935,11 @@ class _Screen extends State<Screen> {
                 children: <Widget>[
 
 
-                  Text(_fnotes[index].title,
+                  Text(_ftiles[index].title,
                     style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600),),
                   Padding(
-                  child: Text(_fnotes[index].text,
-                    style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1), fontStyle: FontStyle.italic, fontSize: 12),),
+                    child: Text(_ftiles[index].text,
+                      style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1), fontStyle: FontStyle.italic, fontSize: 12),),
                     padding: EdgeInsets.only(left: 10),
                   ),
                 ],
@@ -948,7 +947,7 @@ class _Screen extends State<Screen> {
               ),
             );
           },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -961,15 +960,16 @@ class _Screen extends State<Screen> {
   }
 
 }
+//Second screen of the double tap event of the stem page
 class StemScreen extends StatefulWidget {
 
   final String title;
   final String text;
   final String stem;
-  final List<Note> fnotes;
+  final List<Tile> ftiles;
 
 
-  StemScreen({Key key, this.title, this.stem, this.fnotes, this.text}) : super(key: key);
+  StemScreen({Key key, this.title, this.stem, this.ftiles, this.text}) : super(key: key);
 
 
   @override
@@ -977,26 +977,26 @@ class StemScreen extends StatefulWidget {
 }
 class _StemScreen extends State<StemScreen> {
 
-  List<Note> _notes = List<Note>();
-  List<Note> _fnotes = List<Note>();
+  List<Tile> _tiles = List<Tile>();
+  List<Tile> _ftiles = List<Tile>();
 
   final String stem;
 
   _StemScreen(this.stem);
 
 
-  Future<List<Note>> fetchNotes() async {
+  Future<List<Tile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/Stem.json';
     var response = await http.get(url);
 
-    var notes = List<Note>();
+    var notes = List<Tile>();
 
 
     if (response.statusCode == 200) {
       var notesJson = json.decode(response.body);
       for (var noteJson in notesJson) {
         if (noteJson['stem'] == stem) {
-          notes.add(Note.fromJson(noteJson));
+          notes.add(Tile.fromJson(noteJson));
         }
       }
     }
@@ -1007,8 +1007,8 @@ class _StemScreen extends State<StemScreen> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
       });
     });
     super.initState();
@@ -1070,22 +1070,22 @@ class _StemScreen extends State<StemScreen> {
                 children: <Widget>[
 
 
-                  Text(_fnotes[index].title,
+                  Text(_ftiles[index].title,
                     style: TextStyle(fontSize: 18,
                         color: Colors.white,
                         fontWeight: FontWeight.w600),),
                   Padding(
-                  child: Text(_fnotes[index].text,
-                    style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1),
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12),),
-                  padding: EdgeInsets.only(left: 10),),
+                    child: Text(_ftiles[index].text,
+                      style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1),
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12),),
+                    padding: EdgeInsets.only(left: 10),),
                 ],
                 mainAxisAlignment: MainAxisAlignment.center,
               ),
             );
           },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -1098,6 +1098,7 @@ class _StemScreen extends State<StemScreen> {
 
 }
 
+//Audio and text file page
 class Audio extends StatefulWidget {
   Audio({Key key, this.title}) : super(key: key);
 
@@ -1109,11 +1110,12 @@ class Audio extends StatefulWidget {
   _Audio createState() => _Audio();
 }
 
+
 class _Audio extends State<Audio> {
 
 
-  List<Link> _notes = List<Link>();
-  List<Link> _fnotes = List<Link>();
+  List<Link> _tiles = List<Link>();
+  List<Link> _ftiles = List<Link>();
 
   Future<List<Link>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/Audio.json';
@@ -1136,8 +1138,8 @@ class _Audio extends State<Audio> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
       });
     });
     super.initState();
@@ -1173,7 +1175,7 @@ class _Audio extends State<Audio> {
           ListView.builder(itemBuilder: (context, index) {
             return new GestureDetector(
               onDoubleTap: () {
-                launch(_fnotes[index].web);
+                launch(_ftiles[index].web);
               },
               child: Container(
                 height: 90,
@@ -1184,22 +1186,22 @@ class _Audio extends State<Audio> {
 
 
                 margin: const EdgeInsets.only(
-                    top: 30.0, bottom: 25.0,),
+                  top: 30.0, bottom: 25.0,),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
 
-                  Padding(
-                   child: Text(_fnotes[index].title,
-                      style: TextStyle(fontSize: 12, color: Colors.white, fontWeight: FontWeight.w600),),
-                  padding: EdgeInsets.only(left: 10),),
+                    Padding(
+                      child: Text(_ftiles[index].title,
+                        style: TextStyle(fontSize: 12, color: Colors.white, fontWeight: FontWeight.w600),),
+                      padding: EdgeInsets.only(left: 10),),
                   ],
                   mainAxisAlignment: MainAxisAlignment.center,
                 ),
               ),
             );
           },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -1211,6 +1213,8 @@ class _Audio extends State<Audio> {
 
   }
 }
+
+//Class to store json file containing title and hyper link of each audio and text file
 class Link {
 
   String title;
@@ -1226,6 +1230,7 @@ class Link {
   }
 }
 
+//Affix class used to create Affix page
 class Affix extends StatefulWidget {
   Affix({Key key, this.title}) : super(key: key);
 
@@ -1239,22 +1244,22 @@ class Affix extends StatefulWidget {
 
 class _Affix extends State<Affix> {
 
-  List<AffixNote> _notes = List<AffixNote>();
-  List<AffixNote> _fnotes = List<AffixNote>();
+  List<AffixTile> _tiles = List<AffixTile>();
+  List<AffixTile> _ftiles = List<AffixTile>();
   final _delay = tempDelay(mill: 200);
 
-  Future<List<AffixNote>> fetchNotes() async {
+  Future<List<AffixTile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/affix.json';
     var response = await http.get(url);
 
-    var notes = List<AffixNote>();
+    var notes = List<AffixTile>();
 
 
     if (response.statusCode == 200) {
       var notesJson = json.decode(response.body);
       for (var noteJson in notesJson) {
 
-        notes.add(AffixNote.fromJson(noteJson));
+        notes.add(AffixTile.fromJson(noteJson));
       }
     }
     return notes;
@@ -1264,8 +1269,8 @@ class _Affix extends State<Affix> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
       });
     });
     super.initState();
@@ -1277,7 +1282,7 @@ class _Affix extends State<Affix> {
       appBar: AppBar(
         centerTitle: true,
         title: new Padding (child: new Text ('Coeur D\' Alene Mobile Dictionary',textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 9,),),
-         padding: EdgeInsets.all(0),),
+          padding: EdgeInsets.all(0),),
         backgroundColor: Color.fromRGBO(252, 11,106,1),
       ),
       body: Column(
@@ -1300,7 +1305,7 @@ class _Affix extends State<Affix> {
                 onDoubleTap: () {
                   Navigator.push(context,
                       MaterialPageRoute(
-                          builder: (context) => AffixScreen(affix: _fnotes[index].affix)
+                          builder: (context) => AffixScreen(affix: _ftiles[index].affix)
                       ));
                 },
                 child:new Container(
@@ -1316,16 +1321,16 @@ class _Affix extends State<Affix> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Padding(
-                      child: Text(_fnotes[index].affix,
-                        style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600,),),
-                      padding: EdgeInsets.only(left:0),),
+                        child: Text(_ftiles[index].affix,
+                          style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600,),),
+                        padding: EdgeInsets.only(left:0),),
                     ],
                     mainAxisAlignment: MainAxisAlignment.center,
                   ),
                 ),
               );
             },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
@@ -1335,15 +1340,16 @@ class _Affix extends State<Affix> {
     );
   }
 }
+//Second page of the affix double tap event
 class AffixScreen extends StatefulWidget {
 
   final String title;
   final String text;
   final String affix;
-  final List<Note> fnotes;
+  final List<Tile> ftiles;
 
 
-  AffixScreen({Key key, this.title, this.affix, this.fnotes, this.text}) : super(key: key);
+  AffixScreen({Key key, this.title, this.affix, this.ftiles, this.text}) : super(key: key);
 
 
   @override
@@ -1351,26 +1357,26 @@ class AffixScreen extends StatefulWidget {
 }
 class _AffixScreen extends State<AffixScreen> {
 
-  List<Note> _notes = List<Note>();
-  List<Note> _fnotes = List<Note>();
+  List<Tile> _tiles = List<Tile>();
+  List<Tile> _ftiles = List<Tile>();
 
   final String affix;
 
   _AffixScreen(this.affix);
 
 
-  Future<List<Note>> fetchNotes() async {
+  Future<List<Tile>> fetchNotes() async {
     var url = 'https://raw.githubusercontent.com/Brandz96/Capstone/master/affixList.json';
     var response = await http.get(url);
 
-    var notes = List<Note>();
+    var notes = List<Tile>();
 
 
     if (response.statusCode == 200) {
       var notesJson = json.decode(response.body);
       for (var noteJson in notesJson) {
         if (noteJson['affix'] == affix) {
-          notes.add(Note.fromJson(noteJson));
+          notes.add(Tile.fromJson(noteJson));
         }
       }
     }
@@ -1381,8 +1387,8 @@ class _AffixScreen extends State<AffixScreen> {
   void initState() {
     fetchNotes().then((value) {
       setState(() {
-        _notes.addAll(value);
-        _fnotes.addAll(value);
+        _tiles.addAll(value);
+        _ftiles.addAll(value);
       });
     });
     super.initState();
@@ -1439,23 +1445,23 @@ class _AffixScreen extends State<AffixScreen> {
                 children: <Widget>[
 
 
-                  Text(_fnotes[index].title,
+                  Text(_ftiles[index].title,
                     style: TextStyle(fontSize: 18,
                         color: Colors.white,
                         fontWeight: FontWeight.w600),),
                   Padding(
 
-                  child: Text(_fnotes[index].text,
-                    style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1),
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12),),
-                  padding: EdgeInsets.only(left: 10),),
+                    child: Text(_ftiles[index].text,
+                      style: TextStyle(color: Color.fromRGBO(238, 239, 240, 1),
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12),),
+                    padding: EdgeInsets.only(left: 10),),
                 ],
                 mainAxisAlignment: MainAxisAlignment.center,
               ),
             );
           },
-            itemCount: _fnotes.length,
+            itemCount: _ftiles.length,
             shrinkWrap: true,
           ),
           ),
